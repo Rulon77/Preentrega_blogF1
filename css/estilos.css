@@ -84,6 +84,7 @@ main{
 p{
     font-family: Formula1-Italic;
     color: black;
+    font-size: medium;
 }
 
 h1{
@@ -147,6 +148,10 @@ footer{
     
 }
 
+.photomarg{
+    margin: 50px;
+}
+
 .contCircuitos{
     padding-top: 20px;
     padding-left:210px;
@@ -198,6 +203,8 @@ footer{
     display: inline;
     border: 5px #ACCE00 solid;
     border-radius: 25%;
+    margin-left: 500px;
+    margin-left: 500x;
 
 }
 
@@ -205,6 +212,9 @@ footer{
     display: inline;
     border: 5px #ACCE00 solid;
     border-radius: 25%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
 }
 
 .divPothoPaddi{
@@ -226,4 +236,35 @@ footer{
 
 .legtext{
     text-align: center;
+}
+
+.alineado {
+    justify-content: space-around;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 90px;
+}
+
+.lejania {
+    padding-left: 100px;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: column;
+}
+
+.medium {
+    height: 200px;
+    width: 200px;
+}
+
+.bordefoto{
+    border-radius: 20px;
+    color: #745296;
+    border: solid 7px;
 }
