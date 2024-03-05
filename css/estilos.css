@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: Formula1-bold;
     src: url(/fonts/Formula1-Bold.ttf);
@@ -47,7 +46,7 @@ header{
 nav ul li{
     list-style: none;
     display:inline-block;
-    margin: 0 10;
+    margin: 0 10px;
 } 
 
 a{
@@ -74,7 +73,8 @@ main{
 }
 
 .sub{
-    background-color: #ACCE00;font-size: 25px;
+    background-color: #ACCE00;
+    font-size: 25px;
     color: #0F0F0F;
     text-align: center;
     margin: 10px;
@@ -128,6 +128,29 @@ footer{
     text-align: center;
 }
 
+.imgNoticia{
+    display: block;
+    width: 30%; 
+    border-radius: 20px;
+    border: solid #745296 8px;
+}
+
+.contNoticia{
+    margin: 20px; 
+    padding-top: 25px;
+    border-radius: 50px;
+    padding-bottom: 15px;
+}
+
+.contNoticia p{
+    font-family: Formula1-Italic;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .contPilotos{
     margin: 20px; 
     padding-top: 50px;
@@ -135,40 +158,24 @@ footer{
 
 .imgPilotos{
     display: block;
-    width: 30%;
-    height: 10%;
-    padding-bottom: 30px;
+    width: 60%; 
     border-radius: 20px;
-}
-
-.contPilotos p{
-    font-family: Formula1-Italic;
-    color: white;
-    text-align: left;
-    padding: 10px;
-    padding-bottom: 120px;
-    font-weight: bold;
-    font-size: 18px;
-    
-}
-
-.photomarg{
-    margin: 50px;
 }
 
 .contCircuitos{
     padding-top: 20px;
-    padding-left:210px;
+    padding-left: 5%;
 }
 
 .contCircuitos p{
     font-family: Formula1-Italic;
     color: white;
     text-transform: uppercase;
+    text-shadow: 5px 10px 5px black;
     font-weight: bold;
-    padding-bottom: 35px;
-    padding-left: 210px;
+    padding-bottom: 20px;
     padding-top: 10px;
+    
 }
 
 .calenNom{
@@ -176,21 +183,21 @@ footer{
     color: white;
     text-transform: uppercase;
     font-weight: bold;
-    padding-bottom: 10px;
-    padding-top: 25px;
+    text-align: center;
+    text-shadow: 5px 10px 4px black; 
+}
+
+.inlinecal{
+    padding-bottom: 60px;
 }
 
 .date{
-    width: 132px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 100%; 
     background: #252525;
     text-align: center;
     border: #745296 solid;
     font-family: Formula1-Italic;
-    color:#fff;
-    display: inline;
+    color:#fff;  
 }
 
 /* Lo uso como ejemplo para comportamiento de cada elemento */
@@ -198,21 +205,22 @@ footer{
     border: 5px red solid;
 }
 
-
 .inline{
     display: inline;
 }
 
 .marg{
     padding-bottom: 50px;
+    padding-top: 20px;
 }
+
 .typePhotoEsc{
     border: 5px #ACCE00 solid;
     border-radius: 25%;
 }
 
 .divPothoPaddi{
-    padding-left: 450px;
+    padding-left: 20%; 
     display: inline;
 }
 
@@ -240,12 +248,12 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-bottom: 90px;
+    padding-bottom: 50px;
 }
 
 .lejania {
-    padding-left: 100px;
-}
+    padding-left: 10%; 
+}    
 
 .flex2{
     display: flex;
@@ -253,12 +261,32 @@ footer{
 }
 
 .medium {
-    height: 200px;
-    width: 200px;
+    height: auto;
+    width: 25%; 
 }
 
 .bordefoto{
     border-radius: 20px;
     color: #745296;
     border: solid 7px;
+}
+
+.asd {
+    padding-bottom: 20px !important;
+}
+
+.centrarItem {
+    display: flex;
+    justify-content: space-around;
+}
+
+.centrarItem2 {
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+.alinearDiv {
+    text-align: center;
+    justify-content: center;
 }
