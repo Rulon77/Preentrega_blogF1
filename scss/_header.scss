@@ -1,0 +1,35 @@
+header{
+    border-bottom: 1px solid black; 
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.logo{
+    height: 120px;
+    width: 60;
+    border-radius: 10px;
+}
+
+.nav-link{
+    color: black !important;
+    font-family: Formula1-Bold;
+    font-size: x-large;
+} 
+
+.nav-link:hover{
+    color: red !important;
+}
+
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 10px;
+} 
+
+a{
+    font-family: Formula1-Wide;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0F0F0F ;
+    padding-right: 50px;
+}

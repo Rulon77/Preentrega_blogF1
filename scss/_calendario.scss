@@ -1,0 +1,27 @@
+.centrarItem{ 
+  display: flex;
+  justify-content: space-around;
+}
+
+ .inlinecal{ 
+  padding-bottom: 60px;
+}
+
+.calenNom{ 
+  font-family: Formula1-Italic;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 5px 10px 4px black;  
+}
+
+.date{ 
+  width: 100%;
+  background: #252525;
+  text-align: center;
+  border: #745296 solid;
+  font-family: Formula1-Italic;
+  color: #fff;
+} 
+  

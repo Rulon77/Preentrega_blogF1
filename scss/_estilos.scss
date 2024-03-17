@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Formula1-bold;
+    src: url(/fonts/Formula1-Bold.ttf);
+}
+@font-face {
+    font-family: Formula1-Italic;
+    src: url(/fonts/Formula1-Italic.ttf);
+}
+
+@font-face{
+    font-family: Formula1-Wide; 
+    src: url(/fonts/Formula1-Wide.ttf);
+}
+
+@import "pilotos";
+@import "escuderias";
+@import "circuitos";
+@import "calendario";
+@import "footer";
+@import "main";
+@import "body";
+@import "header";
+@import "index";

@@ -1,0 +1,36 @@
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.flex2{
+  display: flex;
+  flex-direction: column;
+}
+.medium{
+  height: auto;
+  width: 25%;
+}    
+
+.bordefoto{
+  border-radius: 20px;
+  color: #745296;
+  border: solid 7px;
+} 
+  
+.imgPilotos{
+  display: block;
+  width: 60%;
+  border-radius: 20px;  
+} 
+
+h3{
+  font-family: Formula1-Bold;
+}
+
+.medium {
+  height: auto;
+  width: 25%; 
+}
